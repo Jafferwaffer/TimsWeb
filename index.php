@@ -7,11 +7,13 @@
 	<body>
 		<?php include 'nav.php'; ?>
 		<main>
-				<!--slider here-->
-				<ul class="rslides">
-					<li><img src="img/mountain_1.jpg"></li>
-					<li><img src="img/mountain_2.jpg"></li>
-					<li><img src="img/skate_1.jpg"></li>
+			<ul class="rslides">
+				<li><img src="img/slider_1.jpg" alt="higgggggggggggggggggggggggh"></li>
+				<li><img src="img/slider_2.jpg" alt="luxury toilet hire"></li>
+				<li><img src="img/slider_3.jpg" alt="luxury toilet hire"></li>
+				<li><img src="img/slider_4.jpg" alt="luxury toilet hire"></li>
+				<li><img src="img/slider_5.jpg" alt="luxury toilet hire"></li>
+				<li><img src="img/slider_6.jpg" alt="luxury toilet hire"></li>
 			</ul>
 		</main>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
