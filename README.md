@@ -12,3 +12,5 @@ Social media links
 
 Shiny stuff
 
+Remove lux toilet text!
+
