@@ -42,6 +42,11 @@
 			after: function(){}     // Function: After callback
 		});
 	</script>
+	<footer>
+		<p>Tim Hines Photography<p>
+		<a href="contact.php" id="home_contact"><p>Contact</p></a>
+	</footer>
 	</body>
+	
 </html>
 

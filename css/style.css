@@ -53,7 +53,16 @@ a:visited{
 a:hover{
 	text-decoration: none;
 }
+footer{
+	background:black;
+	color:white;
+	text-align:center;
+	padding-top:25px;
+}
 
+#home_contact{
+	color:white;
+}
 /*CONTACT CONTAINER*/
 contact_container{
 	font-family:junction;
