@@ -8,9 +8,9 @@
 		<div id="slider_container" style="position:relative; top:0px; left:0px; width:600px; height:300px;">
 			<!-- Slides Container -->
 			<div u="slides" style="cursor: move; position: absolute; overflow:hidden; left:0px; top:0px; width:600px;height:300px;">
-				<div><img u="image" src=""/></div>
-				<div><img u="image" src=""/></div>
-				<div><img u="image" src=""/></div>
+				<div><img u="image" src="img/mountain_1.jpeg"/></div>
+				<div><img u="image" src="img/mountain_2.jpeg"/></div>
+				<div><img u="image" src="img/skate_1.jpeg"/></div>
 				<div><img u="image" src=""/></div>
 			</div>
 		</div>
