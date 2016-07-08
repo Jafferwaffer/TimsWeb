@@ -15,40 +15,39 @@
 		</nav>
 		<main>
 				<!--slider here-->
-			<div id="slider_container" style="position:relative; top:0px; left:0px; width:600px; height:300px;">
-				<!-- Slides Container -->
-				<div u="slides" style="cursor: move; position: absolute; overflow:hidden; left:0px; top:0px; width:600px;height:300px;">
-					<div><img u="image" src="img/mountain_1.jpg"/></div>
-					<div><img u="image" src="img/mountain_2.jpg"/></div>
-					<div><img u="image" src="img/skate_1.jpg"/></div>
-					<div><img u="image" src=""/></div>
-				</div>
-			</div>
-			<script>
-				jQuery(document).ready(function($){
-					var options = {$AutoPlay: true};
-					var jssor_slider_home = new  $JssorSlider$('slider_container',options);
-				});
-				 //responsive code begin
-                //you can remove responsive code if you don't want the slider scales while window resizing
-                function ScaleSlider() {
-                    var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                    if (refSize) {
-                        refSize = Math.min(refSize, 1920);
-                        jssor_1_slider.$ScaleWidth(refSize);
-                    }
-                    else {
-                        window.setTimeout(ScaleSlider, 30);
-                    }
-                }
-                ScaleSlider();
-                $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                //responsive code end
-            };
-
-			</script>
+				<ul class="rslides">
+					<li><img src="img/mountain_1.jpg" alt="higgggggggggggggggggggggggh"></li>
+					<li><img src="img/mountain_2.jpg" alt="luxury toilet hire"></li>
+					<li><img src="img/skate_1.jpg" alt="luxury toilet hire"></li>
+					<li><img src="img/.jpg" alt="luxury toilet hire"></li>
+			</ul>
 		</main>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+
+	<script>
+		$(function() {
+			$(".rslides").responsiveSlides();
+		});
+		$(".rslides").responsiveSlides({
+			auto: true,             // Boolean: Animate automatically, true or false
+			speed: 500,            // Integer: Speed of the transition, in milliseconds
+			timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+			pager: false,           // Boolean: Show pager, true or false
+			nav: false,             // Boolean: Show navigation, true or false
+			random: false,          // Boolean: Randomize the order of the slides, true or false
+			pause: false,           // Boolean: Pause on hover, true or false
+			pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+			prevText: "Previous",   // String: Text for the "previous" button
+			nextText: "Next",       // String: Text for the "next" button
+			maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+			navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+			manualControls: "",     // Selector: Declare custom pager navigation
+			namespace: "rslides",   // String: Change the default namespace used
+			before: function(){},   // Function: Before callback
+			after: function(){}     // Function: After callback
+		});
+	</script>
 	</body>
 </html>
+
