@@ -16,9 +16,9 @@
 		<main>
 				<!--slider here-->
 				<ul class="rslides">
-					<li><img src="img/mountain_1.jpg" alt="higgggggggggggggggggggggggh"></li>
-					<li><img src="img/mountain_2.jpg" alt="luxury toilet hire"></li>
-					<li><img src="img/skate_1.jpg" alt="luxury toilet hire"></li>
+					<li><img src="img/mountain_1.jpg"></li>
+					<li><img src="img/mountain_2.jpg"></li>
+					<li><img src="img/skate_1.jpg"></li>
 					<li><img src="img/.jpg" alt="luxury toilet hire"></li>
 			</ul>
 		</main>
