@@ -5,14 +5,7 @@
 		<script src="libs\jssor.slider.min.js"></script>
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>Prices</li>
-				<li>About</li>
-				<a href="contact.php"><li id="end">Contact</li></a>
-			</ul>
-		</nav>
+		<?php include 'nav.php'; ?>
 		<main>
 				<!--slider here-->
 				<ul class="rslides">

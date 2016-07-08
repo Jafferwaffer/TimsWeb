@@ -1,7 +1,15 @@
+@font-face {
+    font-family: junction;
+    src: url(junction-regular.woff);
+}
+@font-face {
+    font-family: lacuna;
+    src: url(lacuna.ttf);
+}
 body{
 	margin:0;
 	padding:0;
-	font-family:sans-serif;
+	font-family:lacuna;
 }
 nav{
 	height:120px;
@@ -33,14 +41,24 @@ nav ul li:hover{
 	transition:1s ease;
 	cursor:pointer;
 	color:white;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:visited{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
 	text-decoration: none;
 }
-nav ul li:visited{
-	text-decoration: none;
-}
-nav ul li:focus{
-	text-decoration: none;
-}
+
+/*CONTACT CONTAINER*/
+contact_container{
+	font-family:junction;
+}	
+	
 /*SLIDER*/
 .rslides {
   position: relative;
