@@ -10,7 +10,7 @@
 				<li>Home</li>
 				<li>Prices</li>
 				<li>About</li>
-				<li id="end">Contact</li>
+				<a href="contact.php"><li id="end">Contact</li></a>
 			</ul>
 		</nav>
 		<main>
@@ -19,7 +19,6 @@
 					<li><img src="img/mountain_1.jpg"></li>
 					<li><img src="img/mountain_2.jpg"></li>
 					<li><img src="img/skate_1.jpg"></li>
-					<li><img src="img/.jpg" alt="luxury toilet hire"></li>
 			</ul>
 		</main>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
