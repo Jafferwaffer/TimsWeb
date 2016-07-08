@@ -22,6 +22,7 @@ nav ul li{
 	line-height:120px;
 	border-right:1px solid;
 	font-size:30px;
+	text-decoration: none;
 }
 #end{
 	border-right:0;
@@ -32,6 +33,13 @@ nav ul li:hover{
 	transition:1s ease;
 	cursor:pointer;
 	color:white;
+	text-decoration: none;
+}
+nav ul li:visited{
+	text-decoration: none;
+}
+nav ul li:focus{
+	text-decoration: none;
 }
 /*SLIDER*/
 .rslides {
