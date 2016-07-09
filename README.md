@@ -14,3 +14,7 @@ Shiny stuff
 
 Remove lux toilet text!
 
+Keep current page highlighted on NAV
+
+Portfolio page
+
