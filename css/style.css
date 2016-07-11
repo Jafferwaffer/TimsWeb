@@ -26,7 +26,7 @@ nav ul{
 	padding:0;
 }
 nav ul li{
-	width:24.84%;
+	width:19.955%; /*May need changing*/
 	float:left;
 	text-align:center;
 	line-height:120px;
@@ -46,7 +46,7 @@ nav ul li:hover{
 }
 nav ul li.current{
 	opacity:0.7;
-	text-decoration: none;
+	text-decoration: underline;
 	background:black;
 	color:white;
 	cursor:pointer;
