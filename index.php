@@ -3,17 +3,18 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script src="libs\jssor.slider.min.js"></script>
+		<script src="js\currentPage.js"></script>
 	</head>
 	<body>
 		<?php include 'nav.php'; ?>
 		<main>
 			<ul class="rslides">
-				<li><img src="img/slider_1.jpg" alt="higgggggggggggggggggggggggh"></li>
-				<li><img src="img/slider_2.jpg" alt="luxury toilet hire"></li>
-				<li><img src="img/slider_3.jpg" alt="luxury toilet hire"></li>
-				<li><img src="img/slider_4.jpg" alt="luxury toilet hire"></li>
-				<li><img src="img/slider_5.jpg" alt="luxury toilet hire"></li>
-				<li><img src="img/slider_6.jpg" alt="luxury toilet hire"></li>
+				<li><img src="img/slider_1.jpg" ></li>
+				<li><img src="img/slider_2.jpg" ></li>
+				<li><img src="img/slider_3.jpg" ></li>
+				<li><img src="img/slider_4.jpg" ></li>
+				<li><img src="img/slider_5.jpg" ></li>
+				<li><img src="img/slider_6.jpg" ></li>
 			</ul>
 		</main>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -44,7 +45,7 @@
 	</script>
 	<footer>
 		<p>Tim Hines Photography<p>
-		<a href="contact.php" id="home_contact"><p>Contact</p></a>
+		<a class="home_contact" href="contact.php"><p>Contact</p></a>
 	</footer>
 	</body>
 	

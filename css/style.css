@@ -42,6 +42,11 @@ nav ul li:hover{
 	cursor:pointer;
 	color:white;
 }
+nav ul li.current{
+	color:white;
+	background:black;
+	cursor:pointer;
+}	
 a{
 	text-decoration: none;
 	color:black;
@@ -58,9 +63,10 @@ footer{
 	color:white;
 	text-align:center;
 	padding-top:25px;
+	padding-bottom:2px;
 }
 
-#home_contact{
+a.home_contact{
 	color:white;
 }
 /*CONTACT CONTAINER*/
