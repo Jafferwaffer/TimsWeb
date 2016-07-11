@@ -1,3 +1,4 @@
+/*EXTRA FONTS*/
 @font-face {
     font-family: junction;
     src: url(junction-regular.woff);
@@ -11,6 +12,7 @@ body{
 	padding:0;
 	font-family:lacuna;
 }
+/*NAVIGATION*/
 nav{
 	height:120px;
 	width:100%;
@@ -43,8 +45,10 @@ nav ul li:hover{
 	color:white;
 }
 nav ul li.current{
-	color:white;
+	opacity:0.7;
+	text-decoration: none;
 	background:black;
+	color:white;
 	cursor:pointer;
 }	
 a{
