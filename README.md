@@ -12,7 +12,7 @@ Social media links
 
 Shiny stuff
 
-Remove lux toilet text!
+Remove lux toilet text! - FIXED
 
 Keep current page highlighted on NAV
 
