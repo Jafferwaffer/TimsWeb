@@ -12,6 +12,7 @@ body{
 	padding:0;
 	font-family:lacuna;
 }
+
 /*NAVIGATION*/
 nav{
 	height:120px;
@@ -66,7 +67,7 @@ footer{
 	background:black;
 	color:white;
 	text-align:center;
-	padding-top:25px;
+	padding-top:16px;
 	padding-bottom:2px;
 }
 
@@ -74,22 +75,29 @@ a.home_contact{
 	color:white;
 }
 /*CONTACT CONTAINER*/
-contact_container{
-	font-family:junction;
+#contact_container{
+	font-family:lacuna;
 	float:left;
+	margin-left:10px;
+	padding-left:30px;
+	width:30%;
+	display:block;
 }
 /* CONTACT FORM */
-form{
+#contact_form{
 	display:block;
+	float:right;
 	margin:0 auto;
-	width:30%;
+	width:60%;
+}
+#contact_form p{
+	font-size:13px;
 }	
 form label{
-		margin:auto;
-		display:block;
-		margin-top:10px;
-		letter-spacing:2px;
-		
+	margin:auto;
+	display:block;
+	margin-top:10px;
+	letter-spacing:2px;	
 }
 form input, textarea {
 	margin:auto;
@@ -125,9 +133,9 @@ input:focus, textarea:focus {
 	-webkit-border-radius:5px;
 	border:none;
 	margin-top:20px;
-	cursor:pointer;
+	margin-left:0px;
+	cursor:pointer;	
 }
-
 #submit:hover {
 	opacity:0.7;
 }	

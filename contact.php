@@ -12,9 +12,8 @@
 			<p>Mobile Number : +44 7530 727034</p>
 			<p>Email Address : placeholder@email.com</p>
 		</div>
-		
-		
 		<div id="contact_form">
+			<h2>Get in touch!</h2>
 			<?php
 			$name = (isset($_POST['name']) ? $_POST['name'] : '');
 			$email = (isset($_POST['email']) ? $_POST['email'] : '');
@@ -54,6 +53,8 @@
 				
 				<label>What is 2+2? (Anti-spam)*</label>
 				<input name="human" placeholder="Type Here">
+				
+				<p>* Required fields</p>
 				
 				<input id="submit" name="submit" type="submit" value="Submit">
 			</form>
