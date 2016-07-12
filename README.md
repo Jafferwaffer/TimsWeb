@@ -6,7 +6,7 @@ Other pages
 
 Seasonal slide real
 
-Contact form
+Contact form - Implemented, needs connection to mail server
 
 Social media links
 
