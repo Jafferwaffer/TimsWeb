@@ -27,7 +27,7 @@ nav ul{
 	padding:0;
 }
 nav ul li{
-	width:19.955%; /*May need changing*/
+	width:19.955%; /*May need changing to be dynamic*/
 	float:left;
 	text-align:center;
 	line-height:120px;
@@ -80,8 +80,13 @@ a.home_contact{
 	float:left;
 	margin-left:10px;
 	padding-left:30px;
+	margin-top:10px;
 	width:30%;
 	display:block;
+	border:5px solid #403946;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 /* CONTACT FORM */
 #contact_form{
