@@ -126,7 +126,7 @@ input:focus, textarea:focus {
     border:1px solid #97d6eb;
 }	
 #submit {
-	font-family:junction;
+	font-family:lacuna;
 	margin:auto;
 	display:block;
 	background:black;
@@ -176,3 +176,4 @@ input:focus, textarea:focus {
   width: 100%;
   border: 0;
   }
+  
